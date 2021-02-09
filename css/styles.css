@@ -796,3 +796,8 @@ input[type="radio"].visually-hidden {
   visibility: hidden;
   pointer-events: none;
 } 
+
+
+textarea {
+  resize: none;
+}
