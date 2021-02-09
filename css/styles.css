@@ -686,10 +686,6 @@ input[type="radio"].visually-hidden {
 .footer-nav .item:not(:last-child) {
   margin-bottom: 9px;
 }
-/* 
-.footer-adress {
-  display: flex;
-} */
 
 .footer-social {
   margin-left: 70px;
@@ -735,6 +731,61 @@ input[type="radio"].visually-hidden {
   color: var(--primary-write-color);
   margin-bottom: 20px;
 }
+
+.form-footer {
+  margin: 0 0 0 auto;
+}
+
+.mailing {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-write-color)
+}
+
+.form-footer-mailing {
+  display: flex;
+}
+
+.form-footer input {
+  width: 358px;
+  min-height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--secondary-bg-color);
+}
+
+.form-footer input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-footer button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  width: 200px;
+  min-height: 50px;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
+
+
 /* =====END FOOTER===== */
 
 
@@ -821,6 +872,7 @@ input[type="radio"].visually-hidden {
 .form-group {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .form-group label {
@@ -859,7 +911,12 @@ input[type="radio"].visually-hidden {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  
-  
+}
 
+
+
+.form-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
