@@ -956,8 +956,9 @@ input[type="radio"].visually-hidden {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  border: 2px solid rgba(33, 33, 33, 1);
-  border-radius: 2px;
+  background-image: url("../images/icon-not-check.svg");
+
+ 
 }
 
 .form-check:checked + .check-label::before {
