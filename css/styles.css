@@ -894,10 +894,6 @@ input[type="radio"].visually-hidden {
 
 }
 
-/* .form-group input:focus {
-  border: var(--accent-color);
-} */
-
 .form-group textarea {
   min-height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
