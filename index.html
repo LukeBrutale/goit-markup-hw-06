@@ -396,7 +396,11 @@
                     <p class="mailing">подпишитесь на рассылку</p>
                     <form class="form-footer-mailing">
                         <input type="email" name="email" placeholder="E-mail">
-                        <button type="submit">Подписаться</button>
+                            <button type="submit" class="subscribe">Подписаться <svg class="footer-icon-send">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                        
                     </form>
                 </div>
         </div>
@@ -436,7 +440,7 @@
                     <label for="comment" class="form-label">Комментарий</label>
                     <textarea name="comment" id="comment" placeholder="Введите текст" class="form-textarea"></textarea>
                
-                
+                    <div class="form-group">
                     <input 
                     type="checkbox" 
                     name="agreement" 
@@ -444,8 +448,12 @@
                     id="agreement"
                     class="form-check visually-hidden">
 
-                    <label for="agreement" class="check-label">Соглашаюсь с рассылкой и принимаю <a href="" class="accept">Условия договора</a></label>
-                <button type="submit">Отправить</button>
+                    <label for="agreement" class="check-label">Соглашаюсь с рассылкой и принимаю &nbsp 
+                        <a href="" class="accept">Условия договора</a>
+                    </label>
+                    </div>
+                    
+                <button type="submit" class="form-button">Отправить</button>
             </form>
         </div>
     </div> 
